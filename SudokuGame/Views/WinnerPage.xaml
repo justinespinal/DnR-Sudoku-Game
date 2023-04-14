@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="SudokuGame.Views.WinnerPage"
+             BackgroundColor="#e42b31">
+    <ContentPage.Content >
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#e42b31">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Frame VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" BackgroundColor="#e42b31">
+                    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+                        <Label Text="You're a winner!" FontSize="30" HorizontalOptions="Center"></Label>
+                        <lottie:AnimationView x:Name="Animation" Animation="win screen.json" AutoPlay="True" WidthRequest="300" HeightRequest="300" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                </Frame>
+            </Grid>
+            <Button Text="Return Home" Clicked="returnHome"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
