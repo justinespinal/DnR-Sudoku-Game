@@ -9,7 +9,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
+                <Grid.ColumnDefinitions> 
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Frame VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="300" WidthRequest="300" BackgroundColor="#e42b31">

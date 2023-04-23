@@ -36,56 +36,56 @@ namespace SudokuGame
         {
             numChoice = '1';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
 
         }
         void NumSelected2(object sender, EventArgs e)
         {
             numChoice = '2';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected3(object sender, EventArgs e)
         {
             numChoice = '3';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected4(object sender, EventArgs e)
         {
             numChoice = '4';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected5(object sender, EventArgs e)
         {
             numChoice = '5';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected6(object sender, EventArgs e)
         {
             numChoice = '6';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected7(object sender, EventArgs e)
         {
             numChoice = '7';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected8(object sender, EventArgs e)
         {
             numChoice = '8';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
         void NumSelected9(object sender, EventArgs e)
         {
             numChoice = '9';
             Console.WriteLine(numChoice);
-            NumSelect.Text = "Num selected: " + numChoice;
+            NumSelectMedium.Text = "Num selected: " + numChoice;
         }
 
         public ICommand ButtonCommand => new Command <string>(CommandButtonClick);
@@ -100,7 +100,7 @@ namespace SudokuGame
             columnChoice = (int)Char.GetNumericValue(c);
             char ans = solution[rowChoice][columnChoice];
             if (ans == numChoice) { valid = true; countCorrect++; Console.WriteLine(countCorrect);}
-            else { valid = false; ErrorCount.Text = "Errors: " + ++countError; }
+            else { valid = false; ErrorCounterMedium.Text = "Errors: " + ++countError; }
         }//end of Command
 
         async void isValid(object sender, EventArgs e)//isValid function
@@ -203,7 +203,7 @@ namespace SudokuGame
             TimeSpan elapsed = DateTime.Now - startTime;
             Device.BeginInvokeOnMainThread(() =>
             {
-                TimerCount.Text = elapsed.ToString(@"hh\:mm\:ss");
+                TimerCounterMedium.Text = elapsed.ToString(@"hh\:mm\:ss");
             });
         }
     }

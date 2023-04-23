@@ -70,6 +70,8 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <BundleResource Include="Resources\win screen.json" />
+    <BundleResource Include="Resources\LouisGeorgeCafe.ttf" />
+    <BundleResource Include="Resources\LouisGeorgeCafeBold.ttf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />

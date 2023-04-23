@@ -11,12 +11,12 @@
                    FontSize="36"/>
             </Frame>
             <Grid>
-                <Label x:Name="ErrorCount" Text="Errors: 0"
+                <Label x:Name="ErrorCounterMedium" Text="Errors: 0"
                    HorizontalTextAlignment="Start"
                    TextColor="white"
                    FontSize="20"/>
                 <Label 
-                    x:Name="TimerCount"
+                    x:Name="TimerCounterMedium"
                     HorizontalTextAlignment="End" 
                     TextColor="white" 
                     Text="00:00:00"
@@ -163,7 +163,7 @@
                 <Button Grid.Row="0" Grid.Column="8" Text="9" Clicked="NumSelected9" BorderColor="black" BorderWidth="1"/>
             </Grid>
             <Label></Label>
-            <Label x:Name="NumSelect" Text="Num Selected:" HorizontalOptions="CenterAndExpand"></Label>
+            <Label x:Name="NumSelectMedium" Text="Num Selected:" HorizontalOptions="CenterAndExpand"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -13,7 +13,7 @@ namespace SudokuGame.Views
 	public partial class WinnerPage : ContentPage
 	{
 		public WinnerPage ()
-		{
+		{ 
 			InitializeComponent ();
 		}
         protected override bool OnBackButtonPressed()

@@ -3,6 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SudokuGame.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="Louis George Cafe Bold"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="Louis George Cafe Bold"/>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

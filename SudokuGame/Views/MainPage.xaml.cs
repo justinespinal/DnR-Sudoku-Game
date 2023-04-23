@@ -13,6 +13,8 @@ namespace SudokuGame
         public MainPage()
         {
             InitializeComponent();
+
+
         }
         async void OnDisplayActionSheetButtonClicked(object sender, EventArgs e)
         {

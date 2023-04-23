@@ -78,6 +78,8 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\win screen.json" />
+    <AndroidAsset Include="Assets\LouisGeorgeCafe.ttf" />
+    <AndroidAsset Include="Assets\LouisGeorgeCafeBold.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
