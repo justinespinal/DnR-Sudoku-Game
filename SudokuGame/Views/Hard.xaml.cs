@@ -51,56 +51,56 @@ namespace SudokuGame
         {
             numChoice = '1';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
 
         }
         void NumSelected2(object sender, EventArgs e)
         {
             numChoice = '2';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected3(object sender, EventArgs e)
         {
             numChoice = '3';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected4(object sender, EventArgs e)
         {
             numChoice = '4';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected5(object sender, EventArgs e)
         {
             numChoice = '5';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected6(object sender, EventArgs e)
         {
             numChoice = '6';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected7(object sender, EventArgs e)
         {
             numChoice = '7';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected8(object sender, EventArgs e)
         {
             numChoice = '8';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
         void NumSelected9(object sender, EventArgs e)
         {
             numChoice = '9';
             Console.WriteLine(numChoice);
-            NumSelectHard.Text = "Num selected: " + numChoice;
+            NumSelectHard.Text = "Number selected: " + numChoice;
         }
 
         public ICommand ButtonCommand => new Command<string>(CommandButtonClick);
@@ -128,22 +128,22 @@ namespace SudokuGame
                 switch (countCorrect % 6)
                 {
                     case 0:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Good Job.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-good-job.mp3");
                         break;
                     case 1:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- You're a Winner.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-youre-a-winner.mp3");
                         break;
                     case 2:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- WINNER WINNER.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-winner.mp3");
                         break;
                     case 3:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Great Job.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-great-job.mp3");
                         break;
                     case 4:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Yay You Got It Right.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-yay-right.mp3");
                         break;
                     case 5:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Chicken Dinner.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-chicken-dinner.mp3");
                         break;
 
                     default:
@@ -156,25 +156,25 @@ namespace SudokuGame
                 switch (countError % 7)
                 {
                     case 0:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Try Again.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-try-again.mp3");
                         break;
                     case 1:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Oh That was terrible.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-oh-that-was-terrible.mp3");
                         break;
                     case 2:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- whoops.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-whoops.mp3");
                         break;
                     case 3:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- You Suck.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-you-suck.mp3");
                         break;
                     case 4:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Uh oh.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-uh-oh.mp3");
                         break;
                     case 5:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Loser.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-loser.mp3");
                         break;
                     case 6:
-                        DependencyService.Get<IAudio>().PlayAudioFile("Derek_FU_Asshole.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-fu.mp3");
                         break;
 
                     default:

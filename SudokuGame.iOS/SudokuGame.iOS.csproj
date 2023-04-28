@@ -147,48 +147,48 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- Oh That was terrible.mp3" />
+    <BundleResource Include="Resources\d-oh-that-was-terrible.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- You Suck.mp3" />
+    <BundleResource Include="Resources\r-you-suck.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- Yay You%27re Smarter then Romaine.mp3" />
+    <BundleResource Include="Resources\r-yay-smart.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- Yay You Got It Right.mp3" />
+    <BundleResource Include="Resources\r-yay-right.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- WINNER WINNER.mp3" />
+    <BundleResource Include="Resources\r-winner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- Uh oh.mp3" />
+    <BundleResource Include="Resources\r-uh-oh.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- Loser.mp3" />
+    <BundleResource Include="Resources\r-loser.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- You%27re a Winner.mp3" />
+    <BundleResource Include="Resources\d-youre-a-winner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- YOU Suck.mp3" />
+    <BundleResource Include="Resources\d-you-suck.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- whoops.mp3" />
+    <BundleResource Include="Resources\d-whoops.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- Try Again.mp3" />
+    <BundleResource Include="Resources\d-try-again.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- Great Job.mp3" />
+    <BundleResource Include="Resources\d-great-job.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\R- Good Job.mp3" />
+    <BundleResource Include="Resources\r-good-job.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\D- Chicken Dinner.mp3" />
+    <BundleResource Include="Resources\d-chicken-dinner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Derek_FU_Asshole.mp3" />
+    <BundleResource Include="Resources\d-fu.mp3" />
   </ItemGroup>
 </Project>

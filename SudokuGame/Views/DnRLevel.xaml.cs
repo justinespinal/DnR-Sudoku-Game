@@ -111,22 +111,22 @@ namespace SudokuGame
                 switch (countCorrect % 6)
                 {
                     case 0:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Good Job.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-good-job.mp3");
                         break;
                     case 1:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- You're a Winner.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-youre-a-winner.mp3");
                         break;
                     case 2:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- WINNER WINNER.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-winner.mp3");
                         break;
                     case 3:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Great Job.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-great-job.mp3");
                         break;
                     case 4:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Yay You Got It Right.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-yay-right.mp3");
                         break;
                     case 5:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Chicken Dinner.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-chicken-dinner.mp3");
                         break;
 
                     default:
@@ -139,25 +139,25 @@ namespace SudokuGame
                 switch (countError % 7)
                 {
                     case 0:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Try Again.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-try-again.mp3");
                         break;
                     case 1:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- Oh That was terrible.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-oh-that-was-terrible.mp3");
                         break;
                     case 2:
-                        DependencyService.Get<IAudio>().PlayAudioFile("D- whoops.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-whoops.mp3");
                         break;
                     case 3:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- You Suck.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-you-suck.mp3");
                         break;
                     case 4:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Uh oh.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-uh-oh.mp3");
                         break;
                     case 5:
-                        DependencyService.Get<IAudio>().PlayAudioFile("R- Loser.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("r-loser.mp3");
                         break;
                     case 6:
-                        DependencyService.Get<IAudio>().PlayAudioFile("Derek_FU_Asshole.mp3");
+                        DependencyService.Get<IAudio>().PlayAudioFile("d-fu.mp3");
                         break;
 
                     default:

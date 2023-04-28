@@ -110,49 +110,49 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- Oh That was terrible.mp3" />
+    <AndroidAsset Include="Assets\r-uh-oh.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- You Suck.mp3" />
+    <AndroidAsset Include="Assets\r-winner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- Yay You%27re Smarter then Romaine.mp3" />
+    <AndroidAsset Include="Assets\r-yay-right.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- Yay You Got It Right.mp3" />
+    <AndroidAsset Include="Assets\r-yay-smart.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- WINNER WINNER.mp3" />
+    <AndroidAsset Include="Assets\r-you-suck.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- Uh oh.mp3" />
+    <AndroidAsset Include="Assets\r-good-job.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- Loser.mp3" />
+    <AndroidAsset Include="Assets\r-loser.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- You%27re a Winner.mp3" />
+    <AndroidAsset Include="Assets\d-oh-that-was-terrible.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- YOU Suck.mp3" />
+    <AndroidAsset Include="Assets\d-try-again.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- whoops.mp3" />
+    <AndroidAsset Include="Assets\d-whoops.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- Try Again.mp3" />
+    <AndroidAsset Include="Assets\d-youre-a-winner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Derek_FU_Asshole.mp3" />
+    <AndroidAsset Include="Assets\d-you-suck.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\R- Good Job.mp3" />
+    <AndroidAsset Include="Assets\d-chicken-dinner.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- Great Job.mp3" />
+    <AndroidAsset Include="Assets\d-fu.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\D- Chicken Dinner.mp3" />
+    <AndroidAsset Include="Assets\d-great-job.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

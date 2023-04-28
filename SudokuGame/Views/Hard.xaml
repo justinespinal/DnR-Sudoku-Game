@@ -27,7 +27,7 @@
 
                 <Grid Grid.Row="0" Grid.Column="0" ColumnDefinitions="*" RowDefinitions="*" RowSpacing="0" ColumnSpacing="0" Padding="5">
                     <Button Grid.Row="0" Grid.Column="0" Text=" " Command="{Binding ButtonCommand}" CommandParameter="00" Clicked="isValid"/>
-                    <Button Grid.Row="0" Grid.Column="1" Text="2" Command="{Binding ButtonCommand}" CommandParameter="01" Clicked="isValid"/>
+                    <Button Grid.Row="0" Grid.Column="1" Text="2"/>
                     <Button Grid.Row="0" Grid.Column="2" Text=" " Command="{Binding ButtonCommand}" CommandParameter="02" Clicked="isValid"/>
 
                     <Button Grid.Row="1" Grid.Column="0" Text=" " Command="{Binding ButtonCommand}" CommandParameter="10" Clicked="isValid"/>
@@ -35,7 +35,7 @@
                     <Button Grid.Row="1" Grid.Column="2" Text=" " Command="{Binding ButtonCommand}" CommandParameter="12" Clicked="isValid"/>
 
                     <Button Grid.Row="2" Grid.Column="0" Text=" " Command="{Binding ButtonCommand}" CommandParameter="20" Clicked="isValid"/>
-                    <Button Grid.Row="2" Grid.Column="1" Text="7" Command="{Binding ButtonCommand}" CommandParameter="21" Clicked="isValid"/>
+                    <Button Grid.Row="2" Grid.Column="1" Text="7"/>
                     <Button Grid.Row="2" Grid.Column="2" Text="4"/>
                 </Grid>
 
@@ -162,7 +162,7 @@
                 <Button Grid.Row="0" Grid.Column="8" Text="9" Clicked="NumSelected9" BorderColor="black" BorderWidth="1"/>
             </Grid>
             <Label></Label>
-            <Label x:Name="NumSelectHard" Text="Num Selected:" HorizontalOptions="CenterAndExpand"></Label>
+            <Label x:Name="NumSelectHard" Text="Number Selected:" HorizontalOptions="CenterAndExpand"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
