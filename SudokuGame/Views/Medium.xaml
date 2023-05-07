@@ -24,6 +24,12 @@
                     
                 </Label>
             </Grid>
+
+            <Image x:Name="pencil_tool" Source="pencil.png"></Image>
+
+            <ImageButton Source="https://cdn-icons-png.flaticon.com/512/266/266146.png"
+             VerticalOptions="CenterAndExpand" HeightRequest="25" HorizontalOptions="End" BackgroundColor="#00000000" Clicked="PencilTime">
+            </ImageButton>
             <Grid ColumnDefinitions="*" RowDefinitions="*" RowSpacing="0" ColumnSpacing="0" Padding="-5">
 
                 <Grid Grid.Row="0" Grid.Column="0" ColumnDefinitions="*" RowDefinitions="*" RowSpacing="0" ColumnSpacing="0" Padding="5">
